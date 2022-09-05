@@ -1,0 +1,152 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navSuperior {
+    background-color: #222222;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px 0px 200px;
+    box-sizing: border-box;
+}
+
+p .navSuperior {
+   flex-wrap: wrap;
+   height: 72px;
+}
+
+.navSuperior ul {
+    display: flex;
+}
+
+.navSuperior ul li {
+    flex-wrap: wrap;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+
+
+.encabezado1 {
+    background-color: #F0A83E;
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 62px;
+    justify-content: space-between;
+    padding: 0px 90px;
+    box-sizing: border-box;
+}
+
+.encabezado1 img {
+    flex-wrap: wrap;
+    height: 23px;
+}
+
+.encabezado1 ul {
+    display: flex;
+}
+
+.encabezado1 ul li {
+    padding: 20px
+}
+
+.esunplacer {
+    font-size: 30px;
+    color: #3C2313;
+    background-color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 0.2em;
+}
+
+.seccion1 {
+    background-image: url(../images/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1000px;
+    box-sizing: border-box;
+}
+
+p .seccion1 {
+    font-size: 16px;
+    color: #3C2313;
+    
+}
+
+.link1 {
+    color: white;
+    background-color: #F0A83E;
+    text-decoration: none;
+}
+
+.link2 {
+    text-decoration: none;
+    color: white;
+    background-color: #F0A83E;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 0.2em;
+}
+
+.seccion2 h1 {
+    font-size: 40px;
+    color: #3C2313;
+    font-weight: bold;
+}
+
+.seccion2 h3 {
+    font-size: 15px;
+    color: #666666;
+}
+
+.section2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section2 a {
+    box-sizing: border-box;
+}
+
+
+.nombreproducto {
+    font-size: 15px;
+    color: #3C2313;
+}
+
+.precio {
+    font-size: 15px;
+    color: #F0A83E;
+}
+
+.contacto {
+    background-color: #3C2313;
+}
+
+.contacto h2 {
+    color: white;
+}
+
+.contacto p {
+    color: #8A8787
+}
+
+li .encabezado1 {
+    list-style: none;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
